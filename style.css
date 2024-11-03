@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.arrow {color: white;
+    font-size: 2.5rem;
+    position: fixed;
+    top: 80vh;
+    right: 5rem;
+    z-index: 1000;
+    background-color: #016bfd;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+}
+h1 , h2, h3, h4 {
+    color: black;
+    font-family: "Headland One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+    color: rgb(132, 132, 132);
+}
+.right i {
+    color: gray;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    
+}
+a {
+    text-decoration: none;
+}
+.right i:hover {
+    background-color: black;
+    color: white;
+}
+.medcare {
+    padding: 1rem 0.8rem;
+}
+.mid {
+    padding-top: 5rem;
+    padding-bottom: 0.5rem;
+    background-color: #0a2142;
+}
+.media:hover  {
+    background-color: #016bfd;
+    
+}
+.media-btn{
+    background-color: orangered;
+}
+.media-btn:hover {
+    background-color: #016bfd;
+    color: #016bfd;
+}
+.mid span {
+    color: #016bfd;
+}
+.form-select {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+.mid a {
+    text-decoration: none;
+    color: white;
+}
+.jump {
+    padding: 1rem 8rem;
+    background-color: #71aef8b4;
+}
+.banner-area {
+    background-image: url(img/home-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 9rem 0rem;
+}
+.feature-secton {
+    background-image: url(img/pattern_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3.5rem 0rem;
+}
+.health-servces {
+    padding: 7rem 1rem;
+}
+.about {
+    position: relative;
+    top: -12rem;
+    background-image: url(img/bg_1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10rem;
+}
+.about-left img {
+    width: 40vw;
+}
+.hero {
+    background-image: url(img/hero1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-2 {
+    background-image: url(img/g2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-3 {
+    background-image: url(img/g3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-blank {
+    background-color: rgba(255, 255, 255, 0.579);
+    padding-left: 13rem;
+}
+.medilife-btn {
+    margin: 1rem 0rem;
+    background-color: #016bfd;
+    padding: 0.5rem;
+    padding-right: 0rem;
+    color: white;
+}
+.medilife-btn:hover {
+    background-color: #0a2142;
+    color: white;
+}
+.btn-span{
+    background-color: #0a2142;
+    font-size: 1rem;
+    color: white;
+    padding: 0.6rem;
+}
+.form-control {
+    background-color: transparent;
+    border: none;
+    margin: 1rem 0rem;
+    border-bottom: 2px solid grey;
+}
+.appointment-form-content {
+    background-color: #0a2142;
+    
+}
+.medilife-contact {
+    background-color: #016bfd;
+    padding: 1rem 1rem;
+}
+.medilife-book {
+    position: relative;
+    bottom: 1rem;
+}
+.service-icon {
+    padding: 0rem 0.5rem;
+}
+.service-icon i {
+    color: white;
+    font-size: 1.5rem;
+    background-color: gray;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.service-icon i:hover {
+    background-color: #016bfd;
+}
+.service-content h5:hover {
+    color: #016bfd;
+}
+.single-cool-fact-area h2{
+ font-weight: bolder;
+ font-size: 3rem;
+}
+.single-cool-fact-area i{
+    font-weight: bolder;
+    font-size: 4rem;
+    color: #016bfd;
+   }
+.single-cool-fact-area h6 {
+    font-weight: bolder;
+}
+.servces {
+    background-image: url(img/g2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.servces-1 {
+    background-image: url(img/g3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.servces-2 {
+    background-image: url(img/ln1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.servces-3 {
+    background-image: url(img/ln2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.servce-hover {
+    margin: 1rem 0rem;
+background-color: #016afdca;
+padding: 7.5rem 5rem;
+opacity: 0;
+}
+.servce-hover p {
+    color: white;
+}
+.headline {
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.servce-hover:hover {
+    opacity: 1;
+    transition: ease-in-out 1s;
+}
+.comments {
+    color: black;
+}
+.medilife-emergency-area {
+    background-color: #016bfd;
+    padding: 5rem 0rem;
+}
+.emergency-content i {
+    font-size: 5rem;
+    color: white;
+}
+.emergency-content h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 1rem 0rem;
+    color: #0a2142;
+}
+.emergency-content h3 {
+    font-weight: bolder;
+    color: white;
+}
+.single-emergency-helpline h5  {
+    color: white;
+    font-weight: bolder;
+}
+.single-emergency-helpline p  {
+    color: white;
+    padding: 1rem 0rem;
+}
+.main-footer-area {
+    padding: 3rem 1rem;
+    background-color: #0a2142;
+}
+.footer-widget p {
+    padding: 1rem 0rem;color: white;
+}
+.widget-post-content p {
+    color: white;
+}
+.widget-post-content a  {
+    color: white;
+    font-weight: bolder;
+}
+.widget-title h6 {
+    color: #016bfd;
+}
+.footer-contact-form {
+    background-color: #143f7c;
+    padding: 2rem ;
+}
+@media (max-width: 700px) {
+    .medcare ,.screen {
+        display: none;
+    }
+    .jump {
+        padding: 0.5rem 1rem;
+    }
+    .about-img img {
+        display: none;
+     }
+     .about-img {
+        text-align: center;
+     }
+     .about-text {
+        padding-top: 8rem;
+        padding-left: 2rem;
+    }
+}
+@media (max-width: 500px) {
+    .as {
+        display: none;
+    }
+    .about-img img {
+        width: 80vw;
+     }
+     .about img {
+        text-align: center;
+     }
+}
